@@ -5,6 +5,6 @@ def line(katz_deli)
   else
     line_arr = []
     katz_deli.each_with_index(1) do |name, index|
-      line_arr >> 
+      line_arr >> "#{index}. #{name}"
   end
 end
