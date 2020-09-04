@@ -7,4 +7,5 @@ def line(katz_deli)
     katz_deli.each_with_index(1) do |name, index|
       line_arr >> "#{index}. #{name}"
   end
+  
 end
