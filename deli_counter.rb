@@ -9,6 +9,6 @@ def line(katz_deli)
     end
     return "The line is currently: " + line_arr.join
   else
-    return "The line is currently empty"
+    return "The line is currently empty."
   end
  end
