@@ -4,7 +4,7 @@ def line(katz_deli)
     line_arr = []
     index = 1
     katz_deli do |name|
-      line_arr << "#{index}. #{name} "
+      line_arr << "#{index}. #{name}"
       index += 1
     end
     puts "The line is currently: "+line_arr.join(" ")
