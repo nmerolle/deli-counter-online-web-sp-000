@@ -7,7 +7,7 @@ def line(katz_deli)
       line_arr << "#{index}. #{name} "
       index += 1
     end
-    puts "The line is currently: #{" + 
+    puts "The line is currently: #{line_arr.join(" ")}"
   else
     puts "The line is currently empty."
   end
