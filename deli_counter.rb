@@ -6,7 +6,7 @@ def line(katz_deli)
       line_arr << "#{index}. #{name}"
       index += 1
     end
-    line_state += 
+    
   else
     puts "The line is currently empty."
   end
