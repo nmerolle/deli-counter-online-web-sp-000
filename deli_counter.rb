@@ -2,7 +2,7 @@
 def line(katz_deli)
   if katz_deli.length >= 1
     line_state = "The line is currently: "
-    katz_deli.each_with_index do |name, index|
+    katz_deli.each_with_index(1) do |name, index|
       line_state += "#{index}. #{name}"
     end
     puts "#{line_state}"  
