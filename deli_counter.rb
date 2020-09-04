@@ -5,7 +5,8 @@ def line(katz_deli)
   else
     line_arr = []
     katz_deli.each_with_index(1) do |name, index|
-      line_arr >> "#{index}. #{name}"
+      line_arr >> "#{index}. #{name} "
+    end
+    return "The line is currently: " + line_arr.join
   end
-  
-end
+ end
