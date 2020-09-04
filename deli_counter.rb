@@ -4,7 +4,7 @@ def line(katz_deli)
     line_state = "The line is currently: "
     katz_deli.each do |name|
       line_arr << "#{index}. #{name}"
-      index += 1
+      line_state += 
     end
     
   else
