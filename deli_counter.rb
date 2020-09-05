@@ -13,5 +13,5 @@ def line(katz_deli)
  
 def take_a_number(katz_deli, name)
   katz_deli << name
-  puts "Welcome, #{name}.  "
+  puts "Welcome, #{name}. You are number #{katz_deli.index(name)+1} in line."
  
